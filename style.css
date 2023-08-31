@@ -195,3 +195,42 @@ button img{
     display: none;
     margin-top: 40px;
 }
+@media (max-width: 768px) {
+    #main {
+        padding: 50px 0;
+    }
+
+    #main > h1 {
+        font-size: 36px;
+    }
+
+    #main > h1 span img {
+        height: 30px;
+    }
+
+    #main #endec-div {
+        width: 70%;
+        margin: 20px 0;
+    }
+
+    #encryption,
+    #decryption {
+        width: 100%;
+    }
+}
+
+/* Responsive adjustments for even smaller screens */
+@media (max-width: 480px) {
+    #main > h1 {
+        font-size: 30px;
+    }
+
+    #main > h1 span img {
+        height: 25px;
+    }
+
+    #main #endec-div {
+        width: 90%;
+        margin: 15px 0;
+    }
+}
